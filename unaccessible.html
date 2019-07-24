@@ -9,26 +9,32 @@
   <title>Unaccessible Example</title>
 </head>
 
-<body>
+<body class="unaccessible">
   <div class="header">Totally Legit Website</div>
   <div class="nav">
-    <a href="" class="nav__link">Home</a>
-    <a href="" class="nav__link">Credit Cards</a>
-    <a href="" class="nav__link">Security Questions</a>
-    <a href="" class="nav__link">Passwords</a>
     <input type="text" placeholder="search">
+    <a href="https://google.com" class="nav__link">Passwords</a>
+    <a href="https://google.com" class="nav__link">Security Questions</a>
+    <a href="https://google.com" class="nav__link">Credit Cards</a>
+    <a href="https://google.com" class="nav__link">Home</a>
   </div>
 
 
   <div class="content">
     <div class="form">
       <div class="title">You and Your SSN</div>
-      <div class="label">first name</div>
-      <input type="text">
-      <div class="label">last name</div>
-      <input type="text">
-      <div class="label">SSN</div>
-      <input type="text">
+      <div class="unaccessible__form">
+        <div class="unaccessible__labels">
+          <div class="label">first name</div>
+          <div class="label">last name</div>
+          <div class="label">SSN</div>
+        </div>
+        <div class="unaccessible__inputs">
+          <input type="text">
+          <input type="text">
+          <input type="text">
+        </div>
+      </div>
       <div class="button">submit form</div>
       <a class="button">clear form</a>
     </div>

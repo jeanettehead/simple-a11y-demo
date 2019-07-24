@@ -78,3 +78,26 @@
   margin-top: 4px;
 
 }
+
+.unaccessible .nav {
+  flex-direction: row-reverse;
+}
+
+.unaccessible input:focus {
+  outline: none;
+}
+
+.unaccessible__form {
+  display: flex;
+  flex-direction: row;
+}
+
+.unaccessible__labels {
+  width: 30%;
+}
+.unaccessible .label {
+  margin-bottom: 10px;
+}
+.unaccessible__inputs {
+  width: 50%;
+}
